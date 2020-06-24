@@ -1,0 +1,465 @@
+body {
+    margin-top: 10px;
+    background: #18453b;
+    color: #222222;
+    font-family: Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: .95em;
+}
+
+@media (min-width: 1025px) {
+    
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: start;
+    border: 2px solid #222222;
+    border-radius: 25px;
+    padding: 0px;
+    background: #97a2a2;
+}
+
+#intro {
+    margin: 0;
+    display: flex;
+    padding: 0px;
+    margin-bottom: 7px;
+    
+}
+
+.intro-box1 {
+    flex: 35%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.intro-box2 {
+    flex: 65%;
+    margin: 5px;
+    padding: px;
+}
+
+#headshot {
+    width: 80%;
+    border-radius: 25px;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, .4) 2px 2px 5px 4px;
+}
+
+#pro {
+    margin: 0 auto;
+    border: 2px solid #222222;
+    border-radius: 15px;
+    padding: 15px;
+    opacity: .85;
+    color: black;
+    margin-bottom: 7px;
+}
+
+#pro:hover {
+    opacity: 1;
+    color: #222222;
+    background-color: whitesmoke;
+    transition: opacity ease-in-out .1s;
+    /* insert pointer change and link to new subpage after semster is over */
+}
+
+.space {
+    margin-bottom: 5px;
+}
+
+#edu {
+    
+    margin: 0 auto;
+    border: 2px solid #222222;
+    border-radius: 15px;
+    padding: 15px;
+    opacity: .85;
+    color: black;
+    margin-bottom: 7px;
+}
+
+#edu:hover {
+    opacity: 1;
+    color: #222222;
+    background-color: whitesmoke;
+    transition: opacity ease-in-out .1s;
+    /* insert pointer change and link to new subpage after semster is over */
+}
+
+#exp {
+    margin: 0 auto;
+    border: 2px solid #222222;
+    border-radius: 15px;
+    padding: 15px;
+    opacity: .85;
+    color: black;
+    margin-bottom: 7px;
+}
+
+#exp:hover {
+    opacity: 1;
+    color: #222222;
+    background-color: whitesmoke;
+    transition: opacity ease-in-out .1s;
+    /* insert pointer change and link to new subpage after semster is over */
+}
+
+#exp-msu {
+    margin: 0 auto;
+    border: 2px solid #222222;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+#exp-recf {
+    margin: 0 auto;
+    border: 2px solid #222222;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 7px;
+}
+
+#exp-recf:hover {
+    opacity: 1;
+    color: #222222;
+    background-color: whitesmoke;
+    transition: opacity ease-in-out .1s;
+    /* insert pointer change and link to new subpage after semster is over */
+}
+
+#lead {
+    
+    margin: 0 auto;
+    border: 2px solid #222222;
+    border-radius: 15px;
+    padding: 15px;
+    opacity: .85;
+    color: black;
+    margin-bottom: 7px;
+}
+
+#lead:hover {
+    opacity: 1;
+    color: #222222;
+    background-color: whitesmoke;
+    transition: opacity ease-in-out .1s;
+    /* insert pointer change and link to new subpage after semster is over */
+}
+
+#robo {
+    
+    margin: 0 auto;
+    border: 2px solid #222222;
+    border-radius: 15px;
+    padding: 15px;
+    opacity: .85;
+    color: black;
+    margin-bottom: 7px;
+}
+
+#robo:hover {
+    opacity: 1;
+    color: #222222;
+    background-color: whitesmoke;
+    transition: opacity ease-in-out .1s;
+    /* insert pointer change and link to new subpage after semster is over */
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    #content {
+        width: 800px;
+        margin: 0 auto;
+        text-align: start;
+        border: 2px solid #222222;
+        border-radius: 25px;
+        padding: 0px;
+        background: #97a2a2;
+    }
+    
+    #intro {
+        margin: 0;
+        display: flex;
+        padding: 0px;
+        margin-bottom: 7px;
+    }
+    
+    .intro-box1 {
+        flex: 35%;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .intro-box2 {
+        flex: 65%;
+        margin: 5px;
+        padding: px;
+    }
+    
+    #headshot {
+        width: 80%;
+        border-radius: 25px;
+        padding: 0;
+        box-shadow: rgba(0, 0, 0, .4) 2px 2px 5px 4px;
+    }
+    
+    #pro {
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        opacity: .85;
+        color: black;
+        margin-bottom: 7px;
+    }
+    
+    #pro:hover {
+        opacity: 1;
+        color: #222222;
+        background-color: whitesmoke;
+        transition: opacity ease-in-out .1s;
+        /* insert pointer change and link to new subpage after semster is over */
+    }
+    
+    .space {
+        margin-bottom: 5px;
+    }
+    
+    #edu {
+        
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        opacity: .85;
+        color: black;
+        margin-bottom: 7px;
+    }
+    
+    #edu:hover {
+        opacity: 1;
+        color: #222222;
+        background-color: whitesmoke;
+        transition: opacity ease-in-out .1s;
+        /* insert pointer change and link to new subpage after semster is over */
+    }
+    
+    #exp {
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        opacity: .85;
+        color: black;
+        margin-bottom: 7px;
+    }
+    
+    #exp:hover {
+        opacity: 1;
+        color: #222222;
+        background-color: whitesmoke;
+        transition: opacity ease-in-out .1s;
+        /* insert pointer change and link to new subpage after semster is over */
+    }
+    
+    #exp-msu {
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    
+    #exp-recf {
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 7px;
+    }
+    
+    #exp-recf:hover {
+        opacity: 1;
+        color: #222222;
+        background-color: whitesmoke;
+        transition: opacity ease-in-out .1s;
+        /* insert pointer change and link to new subpage after semster is over */
+    }
+    
+    #lead {
+        
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        opacity: .85;
+        color: black;
+        margin-bottom: 7px;
+    }
+    
+    #lead:hover {
+        opacity: 1;
+        color: #222222;
+        background-color: whitesmoke;
+        transition: opacity ease-in-out .1s;
+        /* insert pointer change and link to new subpage after semster is over */
+    }
+    
+    #robo {
+        
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        opacity: .85;
+        color: black;
+        margin-bottom: 7px;
+    }
+    
+    #robo:hover {
+        opacity: 1;
+        color: #222222;
+        background-color: whitesmoke;
+        transition: opacity ease-in-out .1s;
+        /* insert pointer change and link to new subpage after semster is over */
+    }
+}
+
+@media (max-width: 767px){
+    #content {
+        width: 450px;
+        margin: 0 auto;
+        text-align: start;
+        border: 2px solid #222222;
+        border-radius: 25px;
+        padding: 0px;
+        background: #97a2a2;
+    }
+    
+    #intro {
+        margin: 0;
+        display: inline-block;
+        padding: 0px;
+        
+    }
+    
+    .intro-box1 {
+        flex: 35%;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .intro-box2 {
+        flex: 65%;
+        margin: 5px;
+        padding: px;
+    }
+    
+    #headshot {
+        display: block;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        border-radius: 25px;
+        padding: 0;
+        box-shadow: rgba(0, 0, 0, .4) 0px 0px 5px 5px;
+    }
+    
+    #pro {
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        opacity: .85;
+        color: black;
+        margin-bottom: 3px;
+    }
+    
+    .space {
+        margin-bottom: 5px;
+    }
+    
+    #edu {
+        
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        opacity: .85;
+        color: black;
+        margin-bottom: 7px;
+    }
+    
+    #exp {
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        opacity: .85;
+        color: black;
+        margin-bottom: 7px;
+    }
+    
+    #exp-msu {
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    
+    #exp-recf {
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 7px;
+    }
+    
+    #lead {
+        
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        opacity: .85;
+        color: black;
+        margin-bottom: 7px;
+    }
+    
+    #robo {
+        
+        margin: 0 auto;
+        border: 2px solid #222222;
+        border-radius: 15px;
+        padding: 15px;
+        opacity: .85;
+        color: black;
+        margin-bottom: 7px;
+    }
+}
